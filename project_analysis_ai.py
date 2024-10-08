@@ -49,7 +49,7 @@ def confirm(prompt):
         elif response in ['no', 'n']:
             return False
         else:
-            print("유효한 응답이 아닙니다. 'yes' 또는 'no'로 대답해주세요.")
+            print("유효한 응답이 아닙니다. 'yes,y' 또는 'no,n'로 대답해주세요.")
 
 def input_requirements():
     """
